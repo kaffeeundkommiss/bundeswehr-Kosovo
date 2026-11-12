@@ -1,0 +1,5 @@
+{ "basis": "https://kaffeeundkommiss.github.io/bundeswehr-Kosovo/", "ordner": "vorschau", "site_name": "Bundeswehr im Kosovo",
+  "seiten": [
+    { "datei": "index.html", "bild": "start", "kicker": "Sicherheitspolitik · seit 1999", "titel": "Bundeswehr im Kosovo" },
+    { "datei": "karte.html", "bild": "karte", "kicker": "Karte", "titel": "Kosovo im Überblick", "karte": "svg.kartesvg" }
+  ] }
