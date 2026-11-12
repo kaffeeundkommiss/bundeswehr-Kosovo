@@ -40,7 +40,7 @@ header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:
 .badges span{font-family:var(--mono);font-size:13px;padding:6px 10px;background:var(--schild);border:1px solid var(--braun)}
 
 main{max-width:var(--max);margin:0 auto;padding:28px 16px 8px;display:flex;flex-direction:column;gap:24px}
-.einleitung p{margin:8px 0 0;color:var(--mute);max-width:70ch}
+.einleitung p{margin:8px 0 0;color:var(--mute);max-width:36em}
 .karte{background:var(--paper);border:1px solid var(--line);border-radius:var(--r)}
 .karte.block{border-top:3px solid var(--akzent)}
 .karte.block > h2{display:table;margin-top:-23px;margin-left:-20px}
@@ -131,7 +131,7 @@ nav.seiten a[aria-current="page"]{border-bottom-color:var(--akzent);color:var(--
 .nord-karte .kartesvg .provname{font-size:2.2px;fill:var(--mute)}
 .nord-karte .kartesvg .ort circle{r:1.3px}
 .kartesvg .ort:not(.de):not(.prt):not(.haupt):not(.hq) circle{fill:var(--k-halo);stroke:var(--k-text);stroke-width:.7}
-figcaption{margin-top:10px;font-size:14px;color:var(--mute)}
+figcaption{margin-top:10px;font-size:14px;color:var(--mute);max-width:36em}
 .legende{display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:10px 0 0;padding:0;font-size:14px}
 .legende li{display:flex;align-items:center;gap:6px}
 .legende .feld{width:16px;height:12px;border:1px solid var(--line);flex:none}
