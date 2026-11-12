@@ -56,6 +56,17 @@ for f in pp['features']:
     p = f['properties']
     if p['name'] in orte and p.get('adm0name') == 'Kosovo':
         punkte[orte[p['name']]] = pk(p['longitude'], p['latitude'])
+def massstab(x, y, km, einh_je_km, fs):
+    """Maßstabsleiste (zwei Felder) mit Beschriftung, linke untere Ecke bei (x, y), Kartenmaß in SVG-Einheiten."""
+    L = km * einh_je_km; h = fs * .42; sw = fs * .07
+    r = lambda v: f'{v:.1f}'.rstrip('0').rstrip('.')
+    return (f'<g class="massstab" aria-hidden="true">'
+            f'<rect class="a" x="{r(x)}" y="{r(y-h)}" width="{r(L/2)}" height="{r(h)}" stroke-width="{r(sw) if sw>=.05 else f"{sw:.2f}"}"/>'
+            f'<rect class="b" x="{r(x+L/2)}" y="{r(y-h)}" width="{r(L/2)}" height="{r(h)}" stroke-width="{r(sw) if sw>=.05 else f"{sw:.2f}"}"/>'
+            f'<text x="{r(x)}" y="{r(y-h-fs*.35)}" font-size="{r(fs)}" style="stroke-width:{fs*.25:.2f}px">0</text>'
+            f'<text x="{r(x+L)}" y="{r(y-h-fs*.35)}" font-size="{r(fs)}" style="stroke-width:{fs*.25:.2f}px">{km} km</text></g>')
+# Maßstab: 1 Grad Breite = 111,32 km = S Karteneinheiten (gilt bei 42,6° N); links unten, 50 km
+teile.append(massstab(15, 466, 50, S / 111.32, 14))
 json.dump({'breite': round(W), 'hoehe': round(H), 'pfade': ''.join(teile), 'orte': {k: [round(v[0],1), round(v[1],1)] for k,v in punkte.items()}},
           open(os.path.join(OUT, 'karte.json'), 'w'), ensure_ascii=False)
 print(round(W), round(H), punkte)

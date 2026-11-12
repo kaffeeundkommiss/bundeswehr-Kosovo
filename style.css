@@ -338,3 +338,8 @@ td.einzeln .nat img{opacity:.75;border-style:dashed}
 .lesarten h3{margin:0 0 6px;font-size:16px}
 .lesarten p{margin:0}
 .kosovokarte .ort circle,.kosovokarte .ort.haupt circle{r:5px}
+/* Maßstabsleiste (Größen je Karte im SVG gesetzt) */
+.kartesvg .massstab rect{stroke:var(--k-text)}
+.kartesvg .massstab .a{fill:var(--k-text)}
+.kartesvg .massstab .b{fill:var(--k-halo)}
+.kartesvg .massstab text{text-anchor:middle;font-weight:600;fill:var(--k-text)}
