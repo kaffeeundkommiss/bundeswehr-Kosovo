@@ -27,7 +27,7 @@ Abgerufen am 11.11.2026. Nummern wie auf der Seite. Nicht voneinander unabhängi
 | Obergrenze 400 (2024, 2025, 2026) | [20]; [19]; [7]; [9]; [22] | [7] „Bis zu 400 Soldatinnen und Soldaten können entsendet werden.“; [22] „up to 400 soldiers“ | belegt |
 | Mandat 11.06.2026: 382/192/2, 35,7 Mio. €, Drs. 21/5513 | [7]; [22] | [7] „Gesamt: 576 Ja: 382 Nein: 192 Enthaltungen 2“, „rund 35,7 Millionen Euro“; [22] „383 pro, 192 against, two abstentions“, „35.7m euros“ | Kosten belegt; Ja-Stimmen widersprüchlich (382/383), Bundestag übernommen |
 | Mandat unbefristet, jährliche Befassung seit 2000 | [9] | „Der Einsatz ist grundsätzlich zeitlich unbegrenzt“; „dass sie für die Fortdauer des Mandats den Deutschen Bundestag jährlich befasst“ | eine Quelle |
-| 29 tote Bundeswehrangehörige, zuletzt 01.07.2019 | [1]; [3] | [1] „Darunter sind 29 deutsche Bundeswehrangehörige“, „zuletzt am 1. Juli 2019 im Camp Film City“; [3] ein Todesfall am 30.05.1999 vor KFOR-Beginn, „28 weitere Kameraden verloren danach im KFOR (Kosovo Force)-Einsatz ihr Leben“ | nur Bundeswehr; unabhängige Quelle nicht gefunden |
+| 29 tote Bundeswehrangehörige, zuletzt 01.07.2019 | [1]; [3] | [1] „Darunter sind 29 deutsche Bundeswehrangehörige“, „zuletzt am 1. Juli 2019 im Camp Film City“; [3] ein Todesfall am 30.05.1999 vor KFOR-Beginn, „28 weitere Kameraden verloren danach im KFOR (Kosovo Force)-Einsatz ihr Leben“; [34] Tabelle „Kosovo – KFOR – 29“ (Stand März 2026); [35] Einzelliste „29 Soldaten der KFOR“, letzter Fall 01.07.2019 | Bundeswehr-Angabe; Wikipedia-Einzelliste (19.11.2026) kommt auf dieselbe Zahl, ist aber keine amtliche Quelle |
 | Feldlager Prizren 2018 aufgegeben | [18]; [6]; [3]; [4] | [18] „Am 4. Oktober 2018 übergab“; [6] „am 17. Dezember 2018 an die UNMIK übergeben“; [3] „Im Herbst 2018“; [4] „Im Dezember 2018“ | Jahr belegt, Tag widersprüchlich, beide genannt |
 | 50.000 Deutsche dienten in Prizren | [2]; [3] | [2] „Gut 50.000 Soldatinnen und Soldaten aus Deutschland“ | nur Bundeswehr |
 | Drei Standorte (Bondsteel, Film City, Novo Selo) | [1] | „Die deutschen Kräfte sind auf drei Standorte in Kosovo verteilt.“ | eine Quelle (Bundeswehr) |
@@ -53,8 +53,8 @@ Abgerufen am 11.11.2026. Nummern wie auf der Seite. Nicht voneinander unabhängi
 ## Offene Punkte
 
 - Datum der deutschen Anerkennung des Kosovo (vermutlich 20.02.2008): nicht belegt, Seite des Auswärtigen Amts war nicht abrufbar, dw.com für das Abrufwerkzeug gesperrt. Nicht auf der Seite.
-- Zahl der deutschen Toten (29) nur von der Bundeswehr belegt.
+- Zahl der deutschen Toten (29): Nachtrag 19.11.2026, Einzelliste [35] bestätigt die Zahl; unabhängige amtliche Zweitquelle weiter nicht gefunden.
 - Stimmenverhältnis des IGH-Gutachtens (10:4) nicht belegt, weggelassen.
 - Jährliche Ist-Stärke 2000–2018 fehlt; Grafik zeigt nur Stichtage.
 - Brüsseler Abkommen (Tagesdatum 19.04.2013) nicht belegt; Seite nennt nur „2013“.
-- Vorschaubild für Linkvorschauen (og:image) noch nicht erzeugt.
+- Erledigt (12.11.2026): Vorschaubild für Linkvorschauen (og:image) vorhanden.
