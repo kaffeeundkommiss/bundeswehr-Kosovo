@@ -56,7 +56,12 @@ main{max-width:var(--max);margin:0 auto;padding:28px 16px 8px;display:flex;flex-
 .beleg{font-size:13px;color:var(--mute)}
 .zahl .beleg{margin-top:8px}
 
-.marke-einzel{display:inline-block;font-size:12px;font-weight:600;color:var(--hinweis);background:var(--hinweis-bg);padding:1px 6px;white-space:nowrap}
+.marke-einzel{font-size:12px;font-weight:600;font-style:italic;color:var(--hinweis);white-space:nowrap}
+/* Quellenverweise im Fließtext: hochgestellt, Kennzeichnung klein dahinter */
+sup.q{font-size:11px;font-weight:600;line-height:0;vertical-align:super;white-space:nowrap;margin-left:1px;color:var(--akzent)}
+sup.q a{color:var(--akzent);text-decoration:none;padding:6px 1px}
+sup.q a:hover,sup.q a:focus-visible{text-decoration:underline}
+sup.q .marke-einzel{font-size:11px;padding-left:2px}
 
 .zeitleiste{list-style:none;margin:0;padding:0}
 .zeitleiste li{display:grid;grid-template-columns:132px 1fr;gap:12px;padding:12px 0;border-top:1px solid var(--line)}
