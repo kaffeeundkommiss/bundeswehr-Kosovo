@@ -50,6 +50,15 @@ Abgerufen am 11.11.2026. Nummern wie auf der Seite. Nicht voneinander unabhängi
 | Banjska 24.09.2023: ein Polizist, drei Angreifer tot | [30]; [2] | [30] „One police officer and three attackers were killed after gunmen stormed the village of Banjska“; [2] „wird ein kosovarischer Ordnungshüter getötet“ | belegt (Angreiferzahl nur [30]) |
 | Özdemir in der Debatte 2026 | [22] | „military interventions cannot create lasting peace“ | eine Quelle, Übersetzung |
 
+## Begriffserklärungen (ergänzt 22.11.2026)
+
+Abgerufen am 22.11.2026. Die Erklärungen stehen beim ersten Vorkommen des Begriffs im Fließtext. Wikipedia und Constellatio sind nur ergänzend genutzt.
+
+| Begriff (Erklärung auf der Seite) | Quellen | Passage (wörtlich, gekürzt) | Bewertung |
+|---|---|---|---|
+| Kompanie/Bataillon: Kompanie aus mehreren Zügen, mehrere Kompanien bilden ein Bataillon | [36]; [37] | [36] „Sie besteht aus mehreren Zügen“, „Ein Bataillon ist ein Verband und bringt mehrere Kompanien unter einem gemeinsamen Kommando zusammen.“; [37] Kompanie „umfasst zwei bis sechs Züge“ | belegt |
+| Namentliche Abstimmung: die Stimme jedes Abgeordneten wird mit Namen veröffentlicht | [38]; [39] | [38] „Stimmkarten, auf denen ihr Name und ihre Fraktion stehen“, „Auch die Namensliste wird veröffentlicht.“; [39] „dienen dazu, das individuelle Abstimmungsverhalten der Abgeordneten transparent zu machen und im Protokoll zu dokumentieren“ | belegt; [39] ohne Seitenzahl |
+
 ## Offene Punkte
 
 - Datum der deutschen Anerkennung des Kosovo (vermutlich 20.02.2008): nicht belegt, Seite des Auswärtigen Amts war nicht abrufbar, dw.com für das Abrufwerkzeug gesperrt. Nicht auf der Seite.
