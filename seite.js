@@ -382,7 +382,7 @@
   function aufklappenFuer(ziel) {
     var geaendert = false;
     klappAbschnitte.forEach(function (ab) {
-      if (ab.inhalt.contains(ziel) && ab.inhalt.hidden !== false) { setzeOffen(ab, true); geaendert = true; }
+      if (ab.section.contains(ziel) && ab.inhalt.hidden !== false) { setzeOffen(ab, true); geaendert = true; }
     });
     if (geaendert) { nachAufklappen(); if (klappen.aktualisieren) klappen.aktualisieren(); }
   }
@@ -438,8 +438,9 @@
       var id = decodeURIComponent(location.hash.slice(1));
       var ziel = id && document.getElementById(id);
       if (!ziel) return;
-      var war = ziel.closest('.klapp-inhalt');
-      if (war && war.hidden !== false) {
+      // Ziel kann im Inhalt oder die Überschrift eines zugeklappten Abschnitts sein (Inhaltsverzeichnis)
+      var zu = klappAbschnitte.some(function (ab) { return ab.section.contains(ziel) && ab.inhalt.hidden !== false; });
+      if (zu) {
         aufklappenFuer(ziel);
         ziel.scrollIntoView({ block: 'start' });
       }
