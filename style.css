@@ -348,3 +348,15 @@ td.einzeln .nat img{opacity:.75;border-style:dashed}
 .kartesvg .massstab .a{fill:var(--k-text)}
 .kartesvg .massstab .b{fill:var(--k-halo)}
 .kartesvg .massstab text{text-anchor:middle;font-weight:600;fill:var(--k-text)}
+
+/* Einstieg (23.11.2026): Belegsystem als zurückhaltender Hinweis, darunter ein nach Themen gruppiertes Inhaltsverzeichnis.
+   Die Links klappen den Zielabschnitt auf (seite.js). Startwerte: 13 px Hinweis, Spalten ab 180 px. */
+.einleitung p.beleg-hinweis{margin-top:14px;padding:2px 0 2px 12px;border-left:2px solid var(--kk-linie);font-size:13px;line-height:1.5;color:var(--kk-grau);max-width:44em}
+.beleg-hinweis .beleg-marke{display:block;margin-bottom:2px;font:500 11px/1.3 var(--kk-mono);letter-spacing:.06em;text-transform:uppercase}
+nav.inhalt{margin-top:18px;padding:12px 0 4px;border-top:1px solid var(--kk-linie)}
+nav.inhalt .inhalt-titel{margin:0 0 8px;font:600 15px/1.2 var(--kk-titel);letter-spacing:.08em;text-transform:uppercase;color:var(--kk-tinte);max-width:none}
+.inhalt-gruppen{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px 24px}
+.inhalt-kopf{display:block;margin-bottom:4px;font:500 11px/1.3 var(--kk-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--kk-grau)}
+nav.inhalt ul{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+nav.inhalt a{color:var(--kk-tinte);font-size:15px;font-weight:600;text-decoration-color:var(--kk-akzent);text-underline-offset:3px}
+@media (max-width:640px){.inhalt-gruppen{grid-template-columns:1fr 1fr}}
